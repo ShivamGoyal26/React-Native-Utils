@@ -53,6 +53,14 @@ const Main = (props: any) => {
           }}>
           <Text style={{color: 'black'}}>Live Tracking</Text>
         </TouchableOpacity>
+
+        <TouchableOpacity
+          style={{margin: 20}}
+          onPress={() => {
+            props.navigation.navigate('Notifications');
+          }}>
+          <Text style={{color: 'black'}}>Notifications</Text>
+        </TouchableOpacity>
       </View>
     </SafeAreaView>
   );

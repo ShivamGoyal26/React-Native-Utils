@@ -9,6 +9,7 @@ import CamerPicker from '../screens/CamerPicker';
 import LocationPicker from '../screens/LocationPicker';
 import Workspace from '../screens/Workspace';
 import LiveTracking from '../screens/LiveTracking';
+import Notifications from '../screens/Notifications';
 
 const Stack = createNativeStackNavigator();
 
@@ -24,6 +25,7 @@ const HomeStack = () => {
       <Stack.Screen name={'LocationPicker'} component={LocationPicker} />
       <Stack.Screen name={'Workspace'} component={Workspace} />
       <Stack.Screen name={'LiveTracking'} component={LiveTracking} />
+      <Stack.Screen name={'Notifications'} component={Notifications} />
     </Stack.Navigator>
   );
 };
