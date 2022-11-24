@@ -10,6 +10,7 @@ import LocationPicker from '../screens/LocationPicker';
 import Workspace from '../screens/Workspace';
 import LiveTracking from '../screens/LiveTracking';
 import Notifications from '../screens/Notifications';
+import StringsValidation from '../screens/StringsValidation';
 
 const Stack = createNativeStackNavigator();
 
@@ -26,6 +27,7 @@ const HomeStack = () => {
       <Stack.Screen name={'Workspace'} component={Workspace} />
       <Stack.Screen name={'LiveTracking'} component={LiveTracking} />
       <Stack.Screen name={'Notifications'} component={Notifications} />
+      <Stack.Screen name={'StringsValidation'} component={StringsValidation} />
     </Stack.Navigator>
   );
 };

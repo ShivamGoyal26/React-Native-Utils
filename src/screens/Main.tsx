@@ -61,6 +61,14 @@ const Main = (props: any) => {
           }}>
           <Text style={{color: 'black'}}>Notifications</Text>
         </TouchableOpacity>
+
+        <TouchableOpacity
+          style={{margin: 20}}
+          onPress={() => {
+            props.navigation.navigate('StringsValidation');
+          }}>
+          <Text style={{color: 'black'}}>Strings Validation</Text>
+        </TouchableOpacity>
       </View>
     </SafeAreaView>
   );
