@@ -69,6 +69,14 @@ const Main = (props: any) => {
           }}>
           <Text style={{color: 'black'}}>Strings Validation</Text>
         </TouchableOpacity>
+
+        <TouchableOpacity
+          style={{margin: 20}}
+          onPress={() => {
+            props.navigation.navigate('Counter');
+          }}>
+          <Text style={{color: 'black'}}>Counter</Text>
+        </TouchableOpacity>
       </View>
     </SafeAreaView>
   );
