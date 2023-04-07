@@ -1,5 +1,3 @@
-## include 
-
 This project is a React Native application that includes several features, including a custom carousel using Flatlist, permission handling, a custom countdown optimized counter, notifications using the Notifee library, and live tracking and location picker.
 
 ## Getting Started
